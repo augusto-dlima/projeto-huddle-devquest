@@ -1,0 +1,145 @@
+html {
+
+    font-size: 62.5%;
+    background-color: var(--Violet);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+body {
+
+    background-image: url('../images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 94%;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 4rem;
+
+}
+
+.cabecalho,
+.conteudo-principal,
+.rodape,
+.icons {
+
+    display: flex;
+    flex-shrink: 0;
+
+}
+
+.cabecalho {
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+}
+
+.conteudo-principal {
+
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    padding-top: 5rem;
+
+}
+
+.rodape {
+
+    width: 100%;
+    height: 20vh;
+    justify-content: flex-end;
+}
+
+.cabecalho .logo {
+
+    width: 26rem;
+    margin-left: 10rem;
+}
+
+
+.cabecalho .logo img {
+
+    width: 100%;
+
+}
+
+.conteudo-principal .imagem-principal {
+
+    width: 50%;
+    display: flex;
+}
+
+.conteudo-principal .informacoes {
+    width: 40%;
+}
+
+.conteudo-principal .imagem-principal img {
+    width: 100%;
+}
+
+.conteudo-principal .informacoes {
+    color: white;
+    padding-left: 5rem;
+
+}
+
+.conteudo-principal .informacoes .titulo {
+    font-weight: 600;
+    font-size: 4rem;
+    margin: 6rem 2rem;
+
+}
+
+.conteudo-principal .informacoes .descricao {
+
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0rem 5rem 0rem 2rem;
+
+}
+
+.conteudo-principal .informacoes .botao {
+
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 5rem 25rem 0rem 2rem;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 4rem;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0.1rem 0.1rem 1rem -0.1px #000;
+
+}
+
+.rodape .icons {
+
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 2rem;
+
+}
+
+.rodape .icons a {
+
+    color: white;
+
+}
+
+.rodape .icons .icon {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 50%;
+    border: 0.1rem solid white;
+
+}

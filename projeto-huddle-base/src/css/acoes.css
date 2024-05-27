@@ -1,0 +1,16 @@
+
+.conteudo-principal .informacoes .botao:hover{
+
+background-color: var(--Soft-Magenta);
+color: white;
+transition: 0.3s ease-in-out;
+
+}
+
+.rodape .icons a:hover .icon{
+
+    color: var(--Soft-Magenta);
+    border: 2px solid var(--Soft-Magenta);
+    transition: 0.3s ease-in-out;
+
+}
